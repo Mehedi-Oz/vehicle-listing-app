@@ -84,9 +84,4 @@
         </section>
         <!--/ New Cars -->
     </main>
-
-    <x-slot:footerLinks>
-        <a href="#">link 3</a>
-        <a href="#">link 4</a>
-    </x-slot:footerLinks>
 </x-app-layout>
