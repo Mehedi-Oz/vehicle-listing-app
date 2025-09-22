@@ -9,5 +9,10 @@ class Model extends EloquentModel
 {
     use HasFactory;
 
+    protected $fillable = [
+        'maker_id',
+        'name',
+    ];
+
     public $timestamps = false;
 }
