@@ -19,5 +19,4 @@ class CarType extends Model
         return $this->hasMany(Car::class);
     }
 
-
 }
